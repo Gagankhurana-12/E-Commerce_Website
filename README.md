@@ -98,4 +98,3 @@ In **Milestone 4**, we expanded our backend by introducing **User Models**, **Co
 
 This milestone strengthened the **user management** aspect of our application, making it more robust and scalable for future enhancements.
 
----
