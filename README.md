@@ -140,12 +140,67 @@ In **Milestone 6**, we implemented the backend endpoint to handle user signup an
 ### ✅ **README Update**
 - Documented Milestone 6 progress in this README file.
 
-Milestone 7: Backend Login Endpoint and Password Validation 🚀
-✅ Login Endpoint Implementation
-Created a backend route to handle user login.
-Accepted user credentials (email/username and password) from the frontend.
-✅ User Authentication Process
-Retrieved the corresponding user from the database using the provided email.
-Used bcrypt.compare to compare the entered password with the stored hashed password.
-Authenticated the user and allowed login if credentials matched.
+This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption.  This is essential for protecting user data and maintaining security best practices.
 
+# Milestone 7 - Login Endpoint
+
+## Overview
+This milestone involves creating a login endpoint that allows users to authenticate using their email/username and password.
+
+## Steps
+
+### 1. Create Login Endpoint
+- Accept user credentials (email/username and password).
+- Retrieve the corresponding user from the database.
+
+### 2. Validate Password
+- Use bcrypt to hash the entered password.
+- Compare it with the stored hashed password for authentication.
+
+## Technologies Used
+- Node.js / Express (or relevant backend framework)
+- bcrypt for password hashing
+- Database (MongoDB, PostgreSQL, etc.)
+
+## Installation & Setup
+1. Clone the repository:
+   sh
+   git clone <repository_url>
+   
+2. Install dependencies:
+   sh
+   npm install
+   
+3. Run the application:
+   sh
+   npm start
+   
+
+## API Endpoint
+### Login
+*POST* /api/login
+#### Request Body
+json
+{
+  "email": "user@example.com",
+  "password": "yourpassword"
+}
+
+#### Response
+json
+{
+  "message": "Login successful",
+  "token": "your-jwt-token"
+}
+
+
+## License
+This project is licensed under the MIT License.
+
+Milestone 8: Product Card Component and Homepage Layout 🚀
+✅ Frontend Product Card Component
+Designed and implemented a reusable Product Card component.
+Utilized props to dynamically render product details like name, image, and price.
+✅ Homepage Layout for Products
+Created a responsive homepage to display multiple Product Cards.
+Used Grid/Flexbox for optimal layout and user experience.
