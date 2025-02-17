@@ -205,6 +205,7 @@ Utilized props to dynamically render product details like name, image, and price
 Created a responsive homepage to display multiple Product Cards.
 Used Grid/Flexbox for optimal layout and user experience.
 
+
 Milestone 9: Product Input Form 🚀
 ✅ Product Form Implementation
 Designed a form for adding product details such as name, price, and description.
@@ -216,6 +217,7 @@ Ensured proper validation and error handling.
 Documented Milestone 9 progress in this README file.
 This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
 
+
 Milestone 10: Product Schema and API Endpoint 🚀
 ✅ Product Schema Implementation
 Defined a Product Schema in Mongoose.
@@ -223,3 +225,4 @@ Implemented validation for fields like name, price, and image URL.
 ✅ API Endpoint for Adding Products
 Created a POST endpoint to store product details in MongoDB.
 Ensured proper validation before saving the data.
+
