@@ -7,7 +7,7 @@ import MyProducts from "../src/pages/myProducts.jsx";
 import Cart from "./pages/cart.jsx";
 import ProductDetails from "./pages/productDetails.jsx";
 import Profile from "./pages/profile.jsx";
-import CreateAddress from "./pages/createAddress.jsx";
+import CreateAddress from "./pages/createProduct.jsx";
 export
 {
     LoginPage,

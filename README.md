@@ -367,3 +367,15 @@ Added an "Add Address" button in the Profile Page.
 Configured routing to navigate from Profile Page to Address Form Page.
 Updated App.jsx to include the new route.
 
+
+Milestone 22: Address API Integration 🌐
+✅ Backend Endpoint Implementation
+
+Created an API endpoint to receive the address from the frontend.
+
+Validated and stored the address in the address array inside the user collection. ✅ Database Integration
+
+Updated the user schema to ensure multiple addresses can be stored.
+
+Implemented authentication and error handling for secure address updates.
+
