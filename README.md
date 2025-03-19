@@ -205,6 +205,7 @@ Utilized props to dynamically render product details like name, image, and price
 Created a responsive homepage to display multiple Product Cards.
 Used Grid/Flexbox for optimal layout and user experience.
 
+
 Milestone 9: Product Input Form 🚀
 ✅ Product Form Implementation
 Designed a form for adding product details such as name, price, and description.
@@ -216,6 +217,7 @@ Ensured proper validation and error handling.
 Documented Milestone 9 progress in this README file.
 This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
 
+
 Milestone 10: Product Schema and API Endpoint 🚀
 ✅ Product Schema Implementation
 Defined a Product Schema in Mongoose.
@@ -224,6 +226,7 @@ Implemented validation for fields like name, price, and image URL.
 Created a POST endpoint to store product details in MongoDB.
 Ensured proper validation before saving the data.
 
+
 Milestone 11: Dynamic Product Display 🚀
 ✅ Fetching Product Data
 Created an endpoint to retrieve all stored products from MongoDB.
@@ -231,6 +234,7 @@ Implemented API call logic in the frontend to fetch data dynamically.
 ✅ Displaying Products
 Passed fetched product data to the Product Card component.
 Rendered product information dynamically on the homepage.
+
 
 Milestone 12: My Products Page 🚀
 ✅ Filtering Products by User Email
@@ -243,6 +247,7 @@ Stored the retrieved data in the application state for dynamic rendering.
 Passed the fetched data to the Product Card component.
 Rendered the products dynamically on the "My Products" page.
 
+
 Milestone 13: Editing Uploaded Products 🚀
 ✅ Backend Update Endpoint
 Created an endpoint to receive and update product details in MongoDB.
@@ -254,6 +259,7 @@ When clicked, it fetches the product details and auto-fills the form.
 Allowed users to modify product details directly within the form.
 Implemented a Save Changes feature to update product details in the database.
 
+
 Milestone 14: Deleting Products 🚀
 ✅ Backend Delete Endpoint
 Created an endpoint to delete a product by its ID from MongoDB.
@@ -264,6 +270,7 @@ When clicked, it sends the product ID to the server endpoint for deletion.
 ✅ Updating UI After Deletion
 Ensured the product is removed from the frontend dynamically after successful deletion.
 Implemented confirmation prompts before deletion for better user experience.
+
 
 Milestone 15: Navbar Component 🚀
 ✅ Creating the Navbar Component
@@ -282,6 +289,7 @@ Implemented a mobile-friendly design with a collapsible menu.
 Added the Nav component to all application pages.
 Ensured smooth and intuitive navigation between different sections.
 
+
 Milestone 16: Product Info Page 🚀
 ✅ Creating the Product Info Page
 
@@ -295,6 +303,7 @@ Added an Add to Cart button to facilitate easy product purchase.
 Integrated backend API calls to fetch and display product details dynamically.
 Ensured the page updates based on the selected product.
 
+
 Milestone 17: Adding Products to Cart
 ✅ Updating User Schema
 Modified the User Schema to include a cart field for storing added products.
@@ -307,6 +316,7 @@ Ensured that product details are properly received from the frontend and stored 
 ✅ Testing and Validation
 Implemented input validation to ensure correct product details are stored.
 Tested API responses to confirm successful cart storage.
+
 
 Milestone 18: Fetching Cart Products
 ✅ Backend Cart Retrieval Endpoint
@@ -357,6 +367,7 @@ Added an "Add Address" button in the Profile Page.
 Configured routing to navigate from Profile Page to Address Form Page.
 Updated App.jsx to include the new route.
 
+
 Milestone 22: Address API Integration 🌐
 ✅ Backend Endpoint Implementation
 
@@ -367,3 +378,4 @@ Validated and stored the address in the address array inside the user collection
 Updated the user schema to ensure multiple addresses can be stored.
 
 Implemented authentication and error handling for secure address updates.
+
