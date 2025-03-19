@@ -318,3 +318,30 @@ Integrated the frontend cart page with the backend to fetch and display cart ite
 ✅ Testing and Validation
 Ensured that the cart data retrieval process is working correctly.
 Tested API responses for accuracy and efficiency.
+
+Milestone 19: Cart Page UI & Quantity Management
+✅ Frontend Cart Page
+Created a dedicated Cart Page UI to display products inside the cart.
+Integrated the frontend with the backend endpoint from Milestone 18 to fetch cart items.
+✅ Quantity Management
+Implemented + (increase) and - (decrease) buttons for each cart product.
+Users can modify product quantities dynamically.
+✅ Backend Endpoints for Quantity Update
+Created API endpoints to handle incrementing and decrementing the product quantity inside the cart.
+Integrated these endpoints with the frontend.
+✅ Testing and Validation
+Ensured smooth UI interaction for increasing and decreasing quantities.
+Tested API responses to validate quantity updates.
+
+Milestone 20: User Profile Page 🚀
+✅ Backend & API Integration
+
+Created an endpoint to send user profile data (photo, name, email, and address).
+Implemented authentication and error handling for secure access.
+Integrated the frontend to fetch and display user details dynamically.
+✅ Frontend Profile Page
+
+Designed a Profile Page displaying profile photo, name, and email.
+Added an Address Section with an "Add Address" button.
+Displayed "No address found" if no address is available.
+Ensured smooth UI updates when adding an address. 🚀
