@@ -14,7 +14,7 @@ const Cart = () => {
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
-        return res.json();
+        return res.json();  
       })
       .then((data) => {
         setProducts(data.cart.map(product => ({ quantity: product['quantity'], ...product['productId'] })));

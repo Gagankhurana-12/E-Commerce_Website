@@ -152,3 +152,118 @@ Implemented a mobile-friendly design with a collapsible menu.
 
 Added the Nav component to all application pages.
 Ensured smooth and intuitive navigation between different sections.
+Milestone 16: Product Info Page 🚀
+✅ Creating the Product Info Page
+
+Designed a Product Info page to display detailed product information.
+✅ Adding Quantity Selection and Cart Button
+
+Implemented a Quantity Selector to allow users to choose the desired quantity.
+Added an Add to Cart button to facilitate easy product purchase.
+✅ Dynamic Data Rendering
+
+Integrated backend API calls to fetch and display product details dynamically.
+Ensured the page updates based on the selected product.
+Milestone 17: Adding Products to Cart
+✅ Updating User Schema
+Modified the User Schema to include a cart field for storing added products.
+✅ Cart Schema Implementation
+Created a Cart Schema in Mongoose to store cart product details.
+✅ Backend Cart Endpoint
+Developed an API endpoint to receive product details and store them in the cart collection in MongoDB.
+✅ API Integration
+Ensured that product details are properly received from the frontend and stored in the cart.
+✅ Testing and Validation
+Implemented input validation to ensure correct product details are stored.
+Tested API responses to confirm successful cart storage.
+Milestone 18: Fetching Cart Products
+✅ Backend Cart Retrieval Endpoint
+Created an endpoint to fetch all products inside a user's cart.
+✅ User-Based Filtering
+Implemented logic to retrieve cart products based on the logged-in user's email.
+✅ API Integration with Frontend
+Integrated the frontend cart page with the backend to fetch and display cart items.
+✅ Testing and Validation
+Ensured that the cart data retrieval process is working correctly.
+Tested API responses for accuracy and efficiency.
+Milestone 19: Cart Page UI & Quantity Management
+✅ Frontend Cart Page
+Created a dedicated Cart Page UI to display products inside the cart.
+Integrated the frontend with the backend endpoint from Milestone 18 to fetch cart items.
+✅ Quantity Management
+Implemented + (increase) and - (decrease) buttons for each cart product.
+Users can modify product quantities dynamically.
+✅ Backend Endpoints for Quantity Update
+Created API endpoints to handle incrementing and decrementing the product quantity inside the cart.
+Integrated these endpoints with the frontend.
+✅ Testing and Validation
+Ensured smooth UI interaction for increasing and decreasing quantities.
+Tested API responses to validate quantity updates.
+Milestone 20: User Profile Page 🚀
+✅ Backend & API Integration
+
+Created an endpoint to send user profile data (photo, name, email, and address).
+Implemented authentication and error handling for secure access.
+Integrated the frontend to fetch and display user details dynamically.
+✅ Frontend Profile Page
+
+Designed a Profile Page displaying profile photo, name, and email.
+Added an Address Section with an "Add Address" button.
+Displayed "No address found" if no address is available.
+Ensured smooth UI updates when adding an address. 🚀
+Milestone 21: Address Form Page 🏠
+✅ Address Form Implementation
+
+Created an Address Form Page with input fields for address, city, state, and ZIP code.
+Used useState to manage the address input dynamically.
+✅ Navigation & Integration
+
+Added an "Add Address" button in the Profile Page.
+Configured routing to navigate from Profile Page to Address Form Page.
+Updated App.jsx to include the new route.
+Milestone 22: Address API Integration 🌐
+✅ Backend Endpoint Implementation
+
+Created an API endpoint to receive the address from the frontend.
+
+Validated and stored the address in the address array inside the user collection. ✅ Database Integration
+
+Updated the user schema to ensure multiple addresses can be stored.
+
+Implemented authentication and error handling for secure address updates.
+
+Milestone 23: Address Selection for Orders 🛒
+✅ Cart Page Enhancement
+
+Added a "Place Order" button inside the cart page.
+Navigated to the "Select Address" page when clicked.
+✅ Address Selection Page
+
+Displayed all available addresses of the user.
+Provided an option to select one address for the order.
+✅ Backend API Implementation
+
+Created an endpoint to fetch and send all saved addresses of the user.
+Ensured authentication and proper error handling.
+Milestone 24: Order Summary Page 🛍️
+✅ Display Ordered Products
+
+Listed all products the user is ordering.
+✅ Address Confirmation
+
+Displayed the selected delivery address.
+✅ Cart Value Calculation
+
+Showed the total value of the cart.
+✅ Place Order Button
+
+Added a "Place Order" button at the bottom for final confirmation.
+Milestone 25: Order Processing Backend ⚙️
+✅ Order API Implementation
+
+Created an endpoint to receive products, user, and address details.
+Retrieved the _id of the user using their email.
+✅ Order Storage
+
+Stored each product as a separate order with the same address.
+Used the existing Order schema to save order details in MongoDB.
