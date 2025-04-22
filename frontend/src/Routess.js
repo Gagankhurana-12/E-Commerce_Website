@@ -8,6 +8,9 @@ import Cart from "./pages/cart.jsx";
 import ProductDetails from "./pages/productDetails.jsx";
 import Profile from "./pages/profile.jsx";
 import CreateAddress from "./pages/createProduct.jsx";
+import SelectAddress from "./pages/SelectAddress.jsx";
+import OrderConfirmation from "./pages/OrderConfirmation.jsx";
+import MyOrdersPage from "./pages/myorders.jsx";
 export
 {
     LoginPage,
@@ -19,6 +22,9 @@ export
     Cart,
     ProductDetails,
     Profile,
-    CreateAddress
+    CreateAddress,
+    SelectAddress,
+    OrderConfirmation,
+    MyOrdersPage
 
 }
