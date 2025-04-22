@@ -430,6 +430,7 @@ Passed the user's email to fetch all orders.
 
 Displayed all user orders on the page.
 Added "My Orders" to the navbar for easy access.
+
 Milestone 28: Order Cancellation Feature
 ✅ My Orders Page
 
@@ -444,6 +445,7 @@ Updated order status to canceled in the database.
 Sent API request on button click.
 Updated UI after successful cancellation.
 
+
 Milestone 29: PayPal Integration for Online Payments 💳
 ✅ PayPal Developer Setup
 
@@ -457,6 +459,7 @@ Retrieved and stored the Client ID from the Sandbox account.
 Added two payment options: Cash on Delivery (COD) and Online Payment.
 Implemented radio buttons to allow users to select their preferred payment method.
 When "Online Payment" is selected, PayPal buttons will be displayed dynamically.
+
 
 Milestone 30: PayPal Integration 💳
 ✅ PayPal Account Setup
