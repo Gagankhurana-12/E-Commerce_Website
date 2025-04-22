@@ -430,6 +430,7 @@ Passed the user's email to fetch all orders.
 
 Displayed all user orders on the page.
 Added "My Orders" to the navbar for easy access.
+
 Milestone 28: Order Cancellation Feature
 ✅ My Orders Page
 
@@ -443,3 +444,4 @@ Updated order status to canceled in the database.
 
 Sent API request on button click.
 Updated UI after successful cancellation.
+
