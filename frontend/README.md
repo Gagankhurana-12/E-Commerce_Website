@@ -383,3 +383,7 @@ Ensured only authenticated users can access protected pages.
 
 Enhances app security by verifying token on every request.
 Prevents unauthorized access to sensitive routes and pages.
+
+Milestone 35: Share Frontend and Backend Deploy Link
+Frontend:
+Backend:
